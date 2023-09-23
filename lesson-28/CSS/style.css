@@ -1,0 +1,22 @@
+.some-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+}
+.engtext {
+text-decoration: line-through;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+}
+.spase30 {
+    font-family: 'Roboto Condensed', sans-serif;
+    word-spacing: 30px;
+    text-decoration: overline;
+}
