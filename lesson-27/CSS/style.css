@@ -1,0 +1,18 @@
+.block {
+    width: 500px;
+    height: 500px;
+    background: #030303;;
+}
+/* Приоритет 10 */
+.block-2 {
+    background: #d23838;
+}
+/* Приоретит 100 */
+#block {
+    background: green;
+}
+/* Приоритет 1 */
+div {
+    background: purple !important;
+
+}
