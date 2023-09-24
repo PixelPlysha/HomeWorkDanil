@@ -1,0 +1,35 @@
+body {
+    font-size: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: #d2b2b2;
+}
+
+/*-------------------------------------------------- */
+
+/* .block {
+    border: 10px solid #831f1f;
+
+    border-style: dotted;
+    border-color: #000;
+    border-width: 10px;
+    border-bottom-color: #740808;
+} */
+
+.block {
+    border: 150px solid #7d2626;
+    border-radius: 50%;
+}
+
+
+
+
+
+.img {
+    border-radius: 40px;
+}
