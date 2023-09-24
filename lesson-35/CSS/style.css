@@ -1,0 +1,26 @@
+body {
+    font-size: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: #d2b2b2;
+}
+
+/*-------------------------------------------------- */
+
+.block {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.inline {
+    opacity: .5;
+}
+
+
+.img
