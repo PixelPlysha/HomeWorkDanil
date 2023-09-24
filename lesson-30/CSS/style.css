@@ -1,0 +1,28 @@
+body {
+    font-size: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: #d2b2b2;
+}
+
+/*-------------------------------------------------- */
+
+
+.block {
+/* padding: 50px 40px 30px 60px; */
+/* padding: 40px 50px 30px; */
+/* padding: 40px 30px; */
+/* padding: 40px; */
+/* Для murgin все то же самое */
+}
+
+.inline {
+
+}
+
+.img 
