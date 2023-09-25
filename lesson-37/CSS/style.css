@@ -1,0 +1,47 @@
+body {
+    font-size: 40px;
+    background: #dccdcd;
+}
+* {
+    box-sizing: border-box;
+}
+
+.block1 {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw #9f9393;
+    border-radius: 2vw;
+}
+
+.block2 {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw #9f9393;
+    border-radius: 2vw;
+}
+
+.block3 {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw #9f9393;
+    border-radius: 2vw;
+}
+/* -------------------------------------------------------- */
+
+.block1 {
+    background: #ab6161;
+    /* background-image: url("../CSS/tiger.jpg"); */
+    background-image: linear-gradient(30deg, rgb(220, 119, 119), rgb(89, 89, 167));
+}
+
+.block2 {
+    background: #ab6161;
+    /* background-image: url("../CSS/tiger.jpg"); */
+    background-image: radial-gradient(rgb(175, 50, 50), rgb(89, 89, 167));
+}
+
+.block3 {
+    background-image: url("../CSS/zebra.webp");
+    background-repeat: no-repeat;
+    background-position: 100px 100;
+}
