@@ -1,0 +1,35 @@
+body {
+    font-size: 40px;
+    background: #000;
+    margin: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+* {
+    block-size: border-box;
+}
+.flexbox {
+    display: flex;
+    border: 20px solid #b9b2b2;
+    height: 50vh;
+    box-shadow:0 0 3.75rem --0.625rem #000;
+}
+.flexbox_item-one {
+    border: 20px solid #548197;
+}
+.flexbox_item-two {
+    border: 20px solid #548197;
+}
+.flexbox_item-tree {
+    border: 20px solid #548197;
+}
+.flexbox_item:nth-child(2) .flexbox_content {
+    padding: 60px 40px;
+}
+.flexbox_content {
+    border: none;
+    padding: 40px;
+    background: linear-gradient(rgb(161, 43, 43) rgb(255, 149, 0));
+}
+/* --------------------------------------------- */
+
