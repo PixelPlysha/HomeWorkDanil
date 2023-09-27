@@ -1,0 +1,33 @@
+body {
+    background: #181E34;
+    /* font-size: 16px; */
+    font-family: "Montserrat" "Arial" sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ======================================================================== */
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
