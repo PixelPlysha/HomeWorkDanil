@@ -1,0 +1,39 @@
+body {
+    background: #404163;
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    color: #e3e4e8;
+}
+
+.block {
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    
+}
+
+
+
+
+
+
+.box {
+    width: 700px;
+    background: #f5f1f1;
+    border-radius: 10px;
+    min-height: 100px;
+}
+
+.dot {
+    width: 100px;
+    height: 100px;
+    background: #b52626;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    z-index: 1;
+}
