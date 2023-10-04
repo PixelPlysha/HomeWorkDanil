@@ -1,0 +1,41 @@
+body {
+    background: #25388c;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background: #625252;
+}
+
+.block {
+    background: #1f8422;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+/* +++++++======================================= */
+
+
+.block {
+    animation: move-block 1s infinite alternate-reverse;
+}
+
+
+
+
+
+@keyframes move-block {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: calc(100% - 200px);
+    }
+}
