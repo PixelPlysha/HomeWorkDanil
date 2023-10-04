@@ -1,0 +1,62 @@
+body {
+    background: #484646;
+    color: white;
+}
+
+.container {
+    padding: 100px 100px 50vh;
+    height: 100%;
+}
+
+.trasition {
+    height: 100%;
+}
+
+.button {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background: #928282;
+}
+
+.block {
+    width: 10px;
+    height: 150px;
+}
+
+.red {
+    background: linear-gradient(120deg red rgb(154, 89, 132) 1000px );
+}
+
+
+.blue {
+    background: linear-gradient(120deg rgb(72, 52, 163) rgb(154, 89, 132) 1000px );
+}
+
+.orange {
+    background: linear-gradient(120deg rgb(141, 115, 37) rgb(154, 89, 132) 1000px );
+}
+
+.purple {
+    background: linear-gradient(120deg rgb(96, 29, 130) rgb(154, 89, 132) 1000px );
+}
+
+.trasition:hover .block {
+    width: 100%;
+}
+
+/* ===================================================================== */
+
+.button {
+transition: 1s;
+}
+
+
+.button:hover {
+    background: #8b0404;
+    border-radius: 100px;
+}
